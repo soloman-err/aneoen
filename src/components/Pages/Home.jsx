@@ -1,12 +1,12 @@
 import React from 'react';
+import Carousel from '../Carousel/Carousel';
 
-const Home = () => {
+const HomeLayout = () => {
     return (
         <div>
-            {/* <h2 className='text-xl font-bold'>Home</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsa dolorum enim est. A nesciunt sapiente molestiae quisquam aut dolores.</p> */}
+            <Carousel></Carousel>
         </div>
     );
 };
 
-export default Home;
+export default HomeLayout;
