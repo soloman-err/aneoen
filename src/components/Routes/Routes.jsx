@@ -4,6 +4,8 @@ import LoginLayout from "../Auth/AuthLayout";
 import RootLayout from "../Layout/RootLayout";
 import Home from "../Pages/Home";
 import Register from "../Auth/Register";
+import BottomNav from "../Shared/Header/BottomNav";
+import Header from "../Shared/Header/Header";
 
 const router = createBrowserRouter([
     {

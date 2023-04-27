@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../Pages/Home';
-import Header from '../Shared/Header';
+import Header from '../Shared/Header/Header';
 
 const RootLayout = () => {
     return (
