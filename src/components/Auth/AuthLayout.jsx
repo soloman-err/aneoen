@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Shared/Header';
 import Login from './Login';
 
-const LoginLayout = () => {
+const AuthLayout = () => {
     return (
         <div>
             <Header></Header>
@@ -11,4 +11,4 @@ const LoginLayout = () => {
     );
 };
 
-export default LoginLayout;
+export default AuthLayout;
