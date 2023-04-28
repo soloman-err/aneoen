@@ -1,6 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 import Carousel from '../../Carousel/Carousel';
+import Footer from '../../Shared/Footer';
 import FeaturedItems from './Featured/FeaturedItems';
 import Review from './Review';
 
@@ -14,9 +15,11 @@ const HomeLayout = () => {
             <Carousel></Carousel>
             <FeaturedItems></FeaturedItems>
             <div className='mt-20'>
+                <h4 className='font-bold text-2xl border-b-2'>Community Reviews</h4>
                 <Review></Review>
                 <Review></Review>
             </div>
+            <Footer />
         </div>
     );
 };

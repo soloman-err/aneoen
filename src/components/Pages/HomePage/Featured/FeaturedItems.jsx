@@ -12,26 +12,26 @@ const FeaturedItems = () => {
         <div className='mt-10 px-5'>
             <h4 className='font-bold text-2xl border-b-2'>Featured Items</h4>
 
-            <div className='flex items-center gap-2 mt-5 justify-between'>
-                <div className='flex flex-row gap-3'>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>All products
+            <div className='flex flex-col md:flex-row items-start md:items-center gap-2 mt-5 justify-between'>
+                <div className='flex flex-col md:flex-row gap-3'>
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>All products
                         <FaAngleDown />
                     </Link>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>Gadgets
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>Gadgets
                         <FaAngleDown />
                     </Link>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>Home appliance
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>Home appliance
                         <FaAngleDown />
                     </Link>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>tech
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>tech
                         <FaAngleDown />
                     </Link>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>Misc
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>Misc
                         <FaAngleDown />
                     </Link>
                 </div>
                 <div>
-                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50'>
+                    <Link className='border-2 rounded-full px-2 border-slate-300 flex items-center gap-1 bg-slate-50 justify-between'>
                         Filter
                         <HiOutlineAdjustments size={20} />
                     </Link>

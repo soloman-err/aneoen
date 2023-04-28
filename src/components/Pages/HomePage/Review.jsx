@@ -4,10 +4,10 @@ import { FaStar, FaStarHalf } from 'react-icons/fa';
 
 const Review = () => {
     return (
-        <div className='flex gap-10 bg-yellow-50 mx-5 p-5 mt-5 items-start'>
+        <div className='flex gap-5 bg-yellow-50 p-5 mt-10 items-start w-[70%] lg:w-[50%] mx-auto'>
             <img className='w-[60px] h-[60px] rounded-full' src="https://github.com/soloman-err/imagination/blob/main/luna.jpg?raw=true" alt="" />
             <div className='text-slate-700'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur animi cumque nulla suscipit voluptas similique! Iusto ullam illum sapiente asperiores temporibus, odio maiores eveniet ratione.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur animi cumque nulla suscipit voluptas similique!</p>
 
                 <div className='flex items-center justify-between mt-3 pe-10'>
                     <Rating
